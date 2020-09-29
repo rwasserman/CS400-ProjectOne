@@ -1,0 +1,51 @@
+Capital,State,State,Population
+Montgomery,Alabama,4903185	
+Juneau,Alaska,731545	
+Phoenix,Arizona,7278717	 
+Little Rock,Arkansas,3017825	
+Sacramento,California,39512223	 
+Denver,Colorado,5758736	
+Hartford,Connecticut,3565287	
+Delaware,Delaware,973764	
+Tallahassee,Florida,21477737	
+Atlanta,Georgia,10617423	
+Honolulu,Hawaii,1415872	
+Boise,Idaho,1787065	
+Springfield,Illinois,12671821	
+Indianapolis,Indiana,6732219	
+Des Moines,Iowa,3155070	
+Topeka,Kansas,2913314	
+Frankfort,Kentucky,4467673	
+Baton Rouge,Louisiana,4648794
+Augusta,Maine,1344212	
+Annapolis,Maryland,6045680	
+Boston,Massachusetts,6949503	
+Lansing,Michigan,9986857	
+Saint Paul,Minnesota,5639632
+Jackson,Mississippi,2976149	
+Jefferson City,Missouri,6137428	
+Helena,Montana,1068778	
+Lincoln,Nebraska,1934408	
+Carson City,Nevada,3080156	
+Concord,New Hampshire,1359711	
+Trenton,New Jersey,8882190	
+Santa Fe,New Mexico,2096829	 
+Albany,New York,19453561	
+Raleigh,North Carolina,10488084	
+Bismarck,North Dakota,762062	
+Columbus,Ohio,11689100	
+Oklahoma City,Oklahoma,3956971	
+Salem,Oregon,4217737	
+Harrisburg,Pennsylvania,12801989
+Providence,Rhode Island,1059361	
+Columbia,South Carolina,5148714
+Pierre,South Dakota,884659	
+Nashville,Tennessee,6833174
+Austin,Texas,28995881	
+Salt Lake City,Utah,3205958	
+Montpelier,Vermont,623989	
+Richmond,Virginia,8535519
+Olympia,Washington,7614893	
+Charleston,West Virginia,1792147	
+Madison,Wisconsin,5822434	
+Cheyenne,Wyoming,578759	d
