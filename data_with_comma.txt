@@ -48,4 +48,4 @@ Richmond,Virginia,8535519
 Olympia,Washington,7614893	
 Charleston,West Virginia,1792147	
 Madison,Wisconsin,5822434	
-Cheyenne,Wyoming,578759	d
+Cheyenne,Wyoming,578759
