@@ -10,7 +10,6 @@ import java.util.NoSuchElementException;
 public class backEnd extends HashTableMap<String, String> {
 	
 	HashTableMap<String, String> yourHashTable; //Uses YOUR own HashTableMap implementation
-	String savedCities = ""; //For keeping track of current saved cities
 	
 	/**
 	 * Public constructor method for creating a new instance of your HashTableMap
@@ -31,7 +30,6 @@ public class backEnd extends HashTableMap<String, String> {
 		String key = city.trim();
 		String value = state.trim() + ", " + String.valueOf(population);
 		if ( yourHashTable.put(key, value) ) {
-			savedCities = savedCities + city + "\n";
 			return true;
 		}
 		return false;
@@ -101,13 +99,6 @@ public class backEnd extends HashTableMap<String, String> {
 		return false;
 	}
 	
-	/**
-	 * This method returns the entire cities that exist within your HashTableMap.
-	 * @return String Representing the cities within this HashTableMap.
-	 */
-	public String currentlySavedCities() {
-		return savedCities;
-	}
 	
 	/**
 	 * This method allows the front-end user to use it and remove a certain city from
@@ -121,7 +112,6 @@ public class backEnd extends HashTableMap<String, String> {
 		if ( !yourHashTable.containsKey(city) ) {
 			return null;
 		}
-	    savedCities = savedCities.replaceFirst( city + "\n" , "");
 		String tempState = yourHashTable.remove(city);
 		return tempState.substring( 0,  tempState.indexOf(',')) ;
 		
@@ -135,8 +125,20 @@ public class backEnd extends HashTableMap<String, String> {
 		return yourHashTable.size();
 	}
 	
+	/**
+	 * Overriden method to see if the table contains a certain key.
+	 * @return boolean Representing if the key exists or not.
+	 */
 	@Override
 	public boolean containsKey(String key) {
 		return yourHashTable.containsKey(key);
+	}
+	
+	/**
+	 * Overriden method that clears out the table.
+	 */
+	@Override
+	public void clear() {
+		yourHashTable.clear();
 	}
 }
